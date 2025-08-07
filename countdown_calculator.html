@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Calculator</title>
+</head>
+<body>
+  <h2>Countdown Calculator</h2>
+  <label for="targetDate">Enter a future date:</label>
+  <input type="date" id="targetDate" name="targetDate">
+  <br><br>
+  <label for="displayFormat">Display format:</label>
+  <select id="displayFormat">
+    <option value="days">Days</option>
+    <option value="weeks">Weeks</option>
+    <option value="months">Months</option>
+    <option value="combo">Combo</option>
+  </select>
+  <br><br>
+  <button id="submit" onclick="sendData()">Submit</button>
+
+  <script src="CountDownScript.js"></script>
+</body>
+</html>
